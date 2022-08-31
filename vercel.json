@@ -1,0 +1,6 @@
+{
+	"env": {
+		"DATABASE_URL": "mysql://ryc70hai3rdexi2ab61j:pscale_pw_GXNzGsvkNaSqnF1mZmX15lDbaSfq4X1PMmeOst5YqoN@us-east.connect.psdb.cloud/remotedb?ssl={\"rejectUnauthorized\":true}"
+	},
+	"rewrites": [{ "source": "/api/(.*)", "destination": "/api" }]
+}

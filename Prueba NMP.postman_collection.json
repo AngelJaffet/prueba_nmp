@@ -1,0 +1,124 @@
+{
+	"info": {
+		"_postman_id": "f2b7a1c0-2ab7-4316-b9d8-95618906a3e5",
+		"name": "Prueba NMP",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15274168"
+	},
+	"item": [
+		{
+			"name": "Localhost",
+			"item": [
+				{
+					"name": "Upload File ",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file_users",
+									"type": "file",
+									"src": "/Applications/MAMP/htdocs/dsjdsjjsjdsods/api/file.txt"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/uploadFile",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"uploadFile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Info",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/getInfo/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"getInfo",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Producción",
+			"item": [
+				{
+					"name": "Upload File ",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file_users",
+									"type": "file",
+									"src": "/Applications/MAMP/htdocs/dsjdsjjsjdsods/api/file.txt"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://prueba-nmp.vercel.app/api/uploadFile",
+							"protocol": "https",
+							"host": [
+								"prueba_nmp",
+								"vercel",
+								"app"
+							],
+							"path": [
+								"api",
+								"uploadFile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Info",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://prueba-nmp.vercel.app/api/getInfo/1",
+							"protocol": "https",
+							"host": [
+								"prueba_nmp",
+								"vercel",
+								"app"
+							],
+							"path": [
+								"api",
+								"getInfo",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

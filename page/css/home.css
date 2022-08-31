@@ -1,0 +1,17 @@
+html{
+	background: #10172A;
+}
+.button{
+	border: 0;
+	outline: 0;
+	margin: 10px;
+	color: #824328;
+	font-size: 14px;
+	font-weight: bold;
+	position: relative;
+	padding: 10px 20px;
+	border-radius: 4px;
+	background: #E9AC6E;
+	text-decoration: none;
+	display: inline-block;
+}
